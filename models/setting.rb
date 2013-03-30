@@ -1,11 +1,12 @@
+# coding: utf-8
 class Setting < ActiveRecord::Base
 
   @@available_settings = {
-    "site_title"       => "Vote for RubyKaja",
-    "site_description" => "Description of This Site.",
+    "site_title"       => "Vote for RubyKaja2013",
+    "site_description" => "RubyKaja2013（Yokohama.rb）用の投票サイトです",
     "site_keywords"    => "RubyKaja, Ruby, Vote",
-    "community"        => "",
-    "message"          => "Message to the voters"
+    "community"        => "Yokohama.rb",
+    "message"          => ""
   }
 
   # Fields
